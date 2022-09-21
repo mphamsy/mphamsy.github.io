@@ -7,18 +7,6 @@
       value: 54 Southfields, NW4 4NB, London
     - name: Phone Number
       value: +44 07846947939
-      
-- title: Core Skills and Competencies
-  type: map
-  contents:
-    - name: Programming Languages
-      value: Python, SQL
-    - name: Libraries
-      value: NumPy, Pandas, Scikit, Tensorflow, Pytorch, matplotlib, Seaborn, NLTK
-    - name: Data Science and Machine Learning
-      value: Regression, Classification, Clustering, NLP, Deep Learning
-    - name: Languages
-      value: English, Polish, Vietnamese
 
 
 - title: Education
@@ -71,4 +59,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>**Hobbies:**</u> Football, Technology, Travelling
+    - <u>Hobbies:</u> Football, Technology, Travelling
