@@ -7,7 +7,7 @@ subtitle: Few words About Me
 profile:
   align: right
   image: profile_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>+44 07846947939</p>
     <p>54 Southfields, NW4 4NB</p>
