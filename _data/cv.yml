@@ -7,6 +7,18 @@
       value: 14th March 1879
     - name: Languages
       value: English, Polish, Vietnamese
+   
+- title: Core Skills and Competencies
+  type: map
+  contents:
+    - name: Programming Languages
+      value: Python, SQL
+    - name: Libraries
+      value: NumPy, Pandas, Scikit, Tensorflow, Pytorch, matplotlib, Seaborn, NLTK
+    - name: Data Science and Machine Learning
+      value: Regression, Classification, Clustering, NLP, Deep Learning
+    - name: Languages
+      value: English, Polish, Vietnamese
 
 - title: Education
   type: time_table
