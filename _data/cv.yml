@@ -3,19 +3,19 @@
   contents:
     - name: Full Name
       value: Michal Pham Sy
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, Polish, Vietnamese
+    - name: Contact Details
+      value: 54 Southfields, NW4 4NB, London
+    - name: Phone Number
+      value: +44 07846947939
    
 - title: Core Skills and Competencies
   type: map
   contents:
-    - name: Programming Languages
+    - name: Tools
       value: Python, SQL
     - name: Libraries
       value: NumPy, Pandas, Scikit, Tensorflow, Pytorch, matplotlib, Seaborn, NLTK
-    - name: Data Science and Machine Learning
+    - name: Machine Learning
       value: Regression, Classification, Clustering, NLP, Deep Learning
     - name: Languages
       value: English, Polish, Vietnamese
@@ -24,17 +24,13 @@
   type: time_table
   contents:
     - title: MSc Data Science
-      institution: University of Bath, Bath, United Kingdom
+      institution: University of Bath, Bath, England
       year: 2021 - Present
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: BEng Civil Engineering
-      institution: University of Surrey, Guildford, United Kingdom
+      institution: University of Surrey, Guildford, England
       year: 2015-2018
       description:
         - Description 1.
@@ -43,9 +39,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Proposal Engineer
+      institution: Keltbray, Esher, England
+      year: 2018 - 2021
       description:
         - Description 1.
         - Description 2.
