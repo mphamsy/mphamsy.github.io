@@ -5,7 +5,7 @@ permalink: /projects/
 description: A display of data science projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Data Science, Machine Learning, Natural Language Processing]
 horizontal: false
 ---
 
