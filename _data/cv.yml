@@ -24,14 +24,14 @@
   type: time_table
   contents:
     - title: MSc Data Science
-    - grade: Expected Grade: Distinction
+      grade: Expected Grade: Distinction
       institution: University of Bath, Bath, England
       year: 2021 - Present
       description:
         - Established strong programming, statistical and analytical skills 
         - Developed technical expertise in Python, SQL and ML
     - title: BEng Civil Engineering
-    - grade: Grade: First-class
+      grade: Grade: First-class
       institution: University of Surrey, Guildford, England
       year: 2015-2018
       description:
