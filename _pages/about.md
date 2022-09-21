@@ -6,7 +6,7 @@ subtitle: Few words About Me
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic12.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>+44 07846947939</p>
