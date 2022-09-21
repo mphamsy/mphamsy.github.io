@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Project Portfolio
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A display of data science projects.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
