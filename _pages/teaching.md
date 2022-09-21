@@ -19,4 +19,4 @@ This document undertakes the optimization of the state-of-the-art Text-to-Text T
 
 As all models were generating only one question per paragraph, they scored quite poorly in the evaluation with n-gram metrics. The paraphraser improved the n-gram performance of all models indicating that generated questions were similar to the rephrased references. The models proved to be robust with semantically generated questions that were contextually correct based on the findings from the QA framework.
 
-**Key Words:** Automatic Question Generation (AQG), Intelligent Tutoring Systems (ITS), Text-to-Text Transfer Transformer (T5)
+**Key Words:** Automatic Question Generation (AQG), Intelligent Tutoring Systems (ITS), Natural Language Processing (NLP), Text-to-Text Transfer Transformer (T5) 
