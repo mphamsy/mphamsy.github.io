@@ -7,9 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-#### **Master's Thesis: Comparison of preprocessing strategies of Text-to-Text Transfer Transformer for Question Generation** 
+##### **Master's Thesis: Comparison of preprocessing strategies of Text-to-Text Transfer Transformer for Question Generation** 
 
-##### **Executive Summary:**
+
+###### **Executive Summary:**
+
 
 Smart automatic question generation (AQG) reduces the strain on teachers and tutors to reproduce assessments on the annual basis as a part of intelligent tutoring systems (ITS). Traditionally, AQG suffered from scalability issues for rule-based systems or could not contextualize well as in the case of recurrent neural question generation (NQG). However, the recent advancements in deep learning in the form of pre-trained transformers can produce solid AQG frameworks on large knowledge domains.
 
