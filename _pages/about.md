@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Bio
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: About Me
 
 profile:
   align: right
@@ -17,6 +17,8 @@ news: False  # includes a list of news items
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+A self-driven and diligent professional with a vast range of technical and interpersonal skills, with prior experience in working in the engineering consultancy. As a distinctive data science graduate, I have developed excellent programming skills through my degree and key communication skills through my work as an engineer. I work comfortably in a team or individually under time and stress restraints. I am a highly organized, committed and positive individual, who is eager to work and learn from others.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
