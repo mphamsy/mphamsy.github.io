@@ -100,8 +100,8 @@ The **accuracy score of 87.06%** was achieved for the best sigmoid kernel with i
 <div class="caption">
     Learning Curves for the best sigmoid kernel
 </div>
+<br/>
 
-</br>
 ### **Results**
 
 The results are highly satisfactory proving that SVM sigmoid kernel is capable of classifying reviews with an exceptional accuracy score of 87.06% with a limited size of the training data. Additional, training examples along with increasing the size of vocabulary data from 2000 may prove to be beneficial for the binary classification tasks. The overall performance of the SVM classifier is displayed in the following confusion matrix. 
@@ -110,7 +110,7 @@ The results are highly satisfactory proving that SVM sigmoid kernel is capable o
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" class="img-fluid" %}
+        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" align = "center" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
