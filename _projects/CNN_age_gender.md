@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CNN: Age-gender Image Classification
-description: The classification of images with CNN
+title: "CNN: Age-gender Image Classification"
+description: "The classification of images with CNN"
 img: assets/img/3.jpg
 importance: 2
 category: Data Science & Machine Learning
