@@ -2,10 +2,17 @@
 layout: page
 title: "SVM: Sentiment Classification"
 description: "The sentiment review analysis utiliziting a support vector machine"
-img: assets/img/12.jpg
+img: assets/img/movierev.JPG
 importance: 1
 category: Data Science & Machine Learning
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sentiment.JPG" title="sentiment" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<br/>
 
 ### **Requirements**
 This project is written in Python and requires the following libraries to be **installed** and **imported**.
@@ -15,8 +22,8 @@ This project is written in Python and requires the following libraries to be **i
 
 ### **Dataset**
 The dataset chosen for this project is a fraction of the IMDB dataset containing 50k reviews for natural language processing (NLP) purposes. The dataset is devoted for binary classification tasks. Each review contains a corresponding negative or positive sentiment.
-- **The training dataset size: ** 5000
-- **The testing dataset size: ** 1500
+- The training dataset size:  5000
+- The testing dataset size: 1500
 The dataset is read and parsed with Pandas library. The sample example of the training dataset is shown in the figure below.
 
 ```
@@ -66,14 +73,32 @@ The best parameters for sigmoid are: {'C': 0.4, 'gamma': 1.0, 'kernel': 'sigmoid
 
 Based on the GridSearchCV finding the best hyperparameters of C and gamma are C: 0.4 and gamma: 1.0 for sigmoid kernel. The results of each hyperparameter pair of C and gamma based on the mean test score are displayed in the heatmap below.
 
-Image
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SVMheatmap.JPG" title="heat" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</br>
 
 ### **Training The Best Sigmoid SVM**
 The SVM classifier is trained with the best parameters found from the GridSearchCV.
 
 <script src="https://gist.github.com/mphamsy/4634d9d8313d6bb3b620224dcfbf3aa9.js"></script>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/LearningcurvesSVM.JPG" title="LC" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+</br>
 ### **Results**
 
 <script src="https://gist.github.com/mphamsy/13187488c21b0f5e8ba15c51066fc44a.js"></script>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
