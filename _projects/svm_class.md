@@ -75,7 +75,7 @@ Based on the GridSearchCV finding the best hyperparameters of C and gamma are C:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SVMheatmap.JPG" title="heat" class="img-fluid" %}
+        {% include figure.html path="assets/img/SVMheatmap.JPG" title="heat" class="center" %}
     </div>
 </div>
 <div class="caption">
@@ -94,7 +94,7 @@ The **accuracy score of 87.06%** was achieved for the best sigmoid kernel with i
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/LearningcurvesSVM.JPG" title="LC" class="img-fluid" %}
+        {% include figure.html path="assets/img/LearningcurvesSVM.JPG" title="LC" class="center" %}
     </div>
 </div>
 <div class="caption">
@@ -110,7 +110,7 @@ The results are highly satisfactory proving that SVM sigmoid kernel is capable o
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0-center">
-        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" align = "center" class="img-fluid" %}
+        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" align = "center" class="center" %}
     </div>
 </div>
 <div class="caption">
