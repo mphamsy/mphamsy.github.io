@@ -24,6 +24,13 @@ This project is written in Python and requires the following libraries to be **i
 The dataset chosen for this project is a fraction of the IMDB dataset containing 50k reviews for natural language processing (NLP) purposes. The dataset is devoted for binary classification tasks. Each review contains a corresponding negative or positive sentiment.
 - The training dataset size:  5000
 - The testing dataset size: 1500
+
+<script src="https://gist.github.com/mphamsy/55895e94ee67461dffefffca1df7ba42.js"></script>
+```
+The shape of train : (5000, 2)
+The shape of test : (1500, 2)
+```
+
 The dataset is read and parsed with Pandas library. The sample example of the training dataset is shown in the figure below.
 
 ```
@@ -110,7 +117,7 @@ The results are highly satisfactory proving that SVM sigmoid kernel is capable o
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0-center">
-        {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" align = "middle" class="center" %}
+        {% include figure.html path="assets/img/CMSVM.JPG" title="Confusion Matrix" align = "middle" class="center" %}
     </div>
 </div>
 <div class="caption">
