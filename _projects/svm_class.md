@@ -109,7 +109,7 @@ The results are highly satisfactory proving that SVM sigmoid kernel is capable o
 <script src="https://gist.github.com/mphamsy/13187488c21b0f5e8ba15c51066fc44a.js"></script>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0-center">
         {% include figure.html path="assets/img/CMSVM.JPG" title="confusion" align = "center" class="img-fluid" %}
     </div>
 </div>
