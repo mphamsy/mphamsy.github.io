@@ -107,8 +107,8 @@ An issue seen throughout the training process was Mario’s tendency to get stuc
 
 Mario also struggled with the first Piranha Plant enemy of the game - an enemy who emerges from pipes, preventing the player from jumping over (see figure below). By episode 2000, the agent was beating stage 1-1 in training, but very few runs saw Mario getting past this enemy. This is likely caused by the agent’s previous experience of pipes which can be safely jumped over - the Piranha Plant represents the an instance in the game where this is not the case.
 
-<div class="row align-content-sm-center">
-    <div class="col align-content-center">
+<div class="row align-self-center">
+    <div class="col align-self-center">
         {% include figure.html path="assets/img/marlim.JPG" title="Mario limitations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
