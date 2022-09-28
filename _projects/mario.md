@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "DDQN: Super Mario Bros"
-description: "SMB - Reinforcement Learning with DDQN algorithm"
+description:
 img: assets/img/marlog.jpg
 importance: 3
 category: Reinforcement Learning
