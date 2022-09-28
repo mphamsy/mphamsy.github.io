@@ -2,13 +2,13 @@
 layout: page
 title: "DDQN: Super Mario Bros"
 description:
-img: assets/img/marlog1.jpg
+img: assets/img/marlog2.jpg
 importance: 3
 category: Reinforcement Learning
 ---
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/marlog.JPG" title="SMB" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/marlog1.JPG" title="SMB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br/>
@@ -94,8 +94,10 @@ The graph displays the agent reward performance over time. The agent continually
 
 ### **Post-training**
 
+The video following video shows the difference between agent at the beginning of the training and at the end.
+
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KxucJUMTmFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/KxucJUMTmFY" title="Mario Agent" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### **Takeaways and Conclusions**
