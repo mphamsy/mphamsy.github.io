@@ -2,10 +2,16 @@
 layout: page
 title: "CNN: Age-gender Image Classification"
 description: "The classification of images with CNN"
-img: assets/img/3.jpg
+img: assets/img/cnnprof.JPG
 importance: 2
 category: Data Science & Machine Learning
 ---
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/cnnprof.JPG" title="Age-Gender Classification" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### **Requirements**
 This project is written in Python and requires the following libraries to be **installed** and **imported**. 
@@ -98,10 +104,10 @@ The first part of our model consisted of two blocks of Convolution-Relu-BatchNor
 **Gender branch:**
 - The binary classification is a much easier task and should be linearly separable in a non-linear feature dimension space introduced by the Relu activation function.
 - The gender branch contains two Convolution-Relu-BatchNormalisation-MaxPooling layers that produce feature maps of dimensions 32x32x32 and 16x16x64, respectively. The size is reduced further to 8x8x64 before flattening.
-- We then added two hidden dense Relu layers of size 256 and 64 connected to a single neuron activated by sigmoid function. 25% dropout is used between these layers.
+- Twohidden dense Relu layers of size 256 and 64 connected to a single neuron activated by sigmoid function. 25% dropout is used between these layers.
 
 **Age branch:**
-- We found the regression task to be more challenging, hence, we decided to introduce higher order of non-linearity by adding more convolutional blocks to the age branch.
+- The regression task for age estimation has proven to be more challenging, hence, to introduce higher order of non-linearity; more convolutional blocks to the age branch were added.
 - The age branch consisted of 6 consecutive convolutional blocks. The feature maps outputted were of dimension 8x8x64 and were fed into two dense Relu layers with 25% dropout connected to a single neuron activated by a linear function.
 
 **Architecture:**
