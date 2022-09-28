@@ -41,19 +41,25 @@ The main challenge in training a regular Deep Q-Network (DQN) is that there is n
 
 One of the solutions is to use fixed targets, which are temporarily "frozen" in place - allowing for boosted convergence. A commonly used method introduces a second network (target net), which copies the weights of the DQN network (online net) after a number of steps in the environment. In this implementation, the variable controlling that is the update_steps.
 
-Additionally, decoupling target Q-values from the online network helps preventing the overestimation of Q-values, which further improves training
+Additionally, decoupling target Q-values from the online network helps preventing the overestimation of Q-values, which further improves training.
 
 <script src="https://gist.github.com/mphamsy/ef16b972d1ab67883927432c39d02dff.js"></script>
 
 ### **Hyperparameters**
 
+These are the hyper parameters used for the training of the Mario agent.
+
 <script src="https://gist.github.com/mphamsy/e24819104e14a457fc88a8e45df7e981.js"></script>
 
 ### **Training**
 
+Mario was trained for 1000 episodes with hyperparameters used as show in the section Hyperparameters.
+
 <script src="https://gist.github.com/mphamsy/a5e821d0df38383744008110080e6e87.js"></script>
 
 ### **Results**
+
+The graph displays the agent reward performance over time. The agent continually learns throughout more episodes.
 
 ### **Post-training**
 
