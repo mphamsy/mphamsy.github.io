@@ -100,7 +100,7 @@ The accuracy score is : 87.06%
 The **accuracy score of 87.06%** was achieved for the best sigmoid kernel with its learning curves being displayed below.
 
 <div class="row">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-5 offset-md-2">
         {% include figure.html path="assets/img/LearningcurvesSVM.JPG" title="Learning Curves" class="middle" %}
     </div>
 </div>
