@@ -95,9 +95,8 @@ The graph displays the agent reward performance over time. The agent continually
 ### **Post-training**
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=KxucJUMTmFY" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KxucJUMTmFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 
 ### **Takeaways and Conclusions**
 
