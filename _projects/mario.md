@@ -31,7 +31,7 @@ Raw frames of the game are of size 240 x 256 x 3, which are computationally expe
 <script src="https://gist.github.com/mphamsy/76f7d90574949c6dc461561a75cfd5e1.js"></script>
 
 ### **CNN - Architecture**
-In this project, we make use of the feature extraction capability of Convolutional Neural Network (CNN) to achieve such purpose.
+The DDQN will use of the feature extraction capability of Convolutional Neural Network (CNN). The model architecture is relatively small with no dropouts to avoid any information loss.
 
 <script src="https://gist.github.com/mphamsy/06d5b5545a6153451266f3d59481b8ae.js"></script>
 
@@ -39,13 +39,9 @@ In this project, we make use of the feature extraction capability of Convolution
 
 The main challenge in training a regular Deep Q-Network (DQN) is that there is no supervision. In the simple DQN implementation, both the target and current state-action Q-values are estimated using the same model. This leads to the correlation causing the shift, which inhibits the TD error from decreasing; which ultimately makes convergence of the model difficult.
 
-One of the solutions is to use fixed targets, which are temporarily "frozen" in place - allowing for
-boosted convergence. A commonly used method introduces a second network (target net), which
-copies the weights of the DQN network (online net) after a number of steps in the environment. In
-our implementation, the variable controlling that is the update_steps.
+One of the solutions is to use fixed targets, which are temporarily "frozen" in place - allowing for boosted convergence. A commonly used method introduces a second network (target net), which copies the weights of the DQN network (online net) after a number of steps in the environment. In this implementation, the variable controlling that is the update_steps.
 
-Additionally, decoupling target Q-values from the online network helps preventing the overestimation
-of Q-values, which further improves training
+Additionally, decoupling target Q-values from the online network helps preventing the overestimation of Q-values, which further improves training
 
 <script src="https://gist.github.com/mphamsy/ef16b972d1ab67883927432c39d02dff.js"></script>
 
