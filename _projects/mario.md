@@ -115,3 +115,7 @@ Mario also struggled with the first Piranha Plant enemy of the game - an enemy w
 <div class="caption">
     Mario limitations
 </div>
+
+<p align="center">
+  <img width="600" height="200" path="assets/img/marlim.JPG">
+</p>
