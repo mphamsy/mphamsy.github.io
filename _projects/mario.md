@@ -75,7 +75,7 @@ These are the hyper parameters used for the training of the Mario agent.
 
 ### **Training**
 
-Mario was trained for 2500 episodes with hyperparameters used as show in the section Hyperparameters.
+Mario was trained for **2500 episodes** with hyperparameters used as show in the section Hyperparameters.
 
 <script src="https://gist.github.com/mphamsy/a5e821d0df38383744008110080e6e87.js"></script>
 
