@@ -2,7 +2,7 @@
 layout: page
 title: "CNN: Age-gender Image Classification"
 description: 
-img: assets/img/cnnprof.JPG
+img: assets/img/cnnim.JPG
 importance: 2
 category: Deep Learning
 ---
