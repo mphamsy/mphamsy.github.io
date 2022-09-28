@@ -2,7 +2,7 @@
 layout: page
 title: "DDQN: Super Mario Bros"
 description:
-img: assets/img/marlog.JPG
+img: assets/img/marlog1.JPG
 importance: 3
 category: Reinforcement Learning
 ---
