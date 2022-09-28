@@ -5,7 +5,7 @@ permalink: /projects/
 description: A display of data science projects.
 nav: true
 nav_order: 2
-display_categories: [Data Science & Machine Learning, Deep Learning, Reinforcement Learning, Other]
+display_categories: [Data Science & ML, Deep Learning, Reinforcement Learning]
 horizontal: false
 ---
 
