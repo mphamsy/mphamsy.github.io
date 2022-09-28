@@ -10,7 +10,7 @@ category: Deep Learning
 
 ### **Problem Definition**
 
-### **Answer-aware and answer-agnostic models*
+### **Answer-aware and answer-agnostic models**
 
 ### **Requirements**
 
