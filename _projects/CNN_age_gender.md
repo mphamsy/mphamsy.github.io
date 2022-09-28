@@ -64,7 +64,7 @@ The train and test images were stores inside respective train and test dataframe
     </div>
 </div>
 <div class="caption">
-    Age Frequency Histogram                        Gender Frequency Histogram
+    Age Frequency Histogram (Left) and                       Gender Frequency Histogram (Right)
 </div>
 <br/>
 ### **Data Augmentation**
