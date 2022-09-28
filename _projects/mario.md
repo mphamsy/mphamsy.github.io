@@ -6,8 +6,8 @@ img: assets/img/marlog1.JPG
 importance: 3
 category: Reinforcement Learning
 ---
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/marlog.JPG" title="SMB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
