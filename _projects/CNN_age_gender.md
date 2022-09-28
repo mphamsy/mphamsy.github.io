@@ -8,7 +8,7 @@ category: Deep Learning
 ---
 
 <div class="row">
-    <div class="col-md-5 offset-md-2">
+    <div class="col-md-5 offset-md-3">
         {% include figure.html path="assets/img/cnnprof.JPG" title="Age-Gender Classification" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -115,7 +115,7 @@ The first part of our model consisted of two blocks of Convolution-Relu-BatchNor
 <script src="https://gist.github.com/mphamsy/039c58a9c807297cf9f8a9175b08f61b.js"></script>
 
 <div class="row">
-    <div class="col-md-5 offset-md-2">
+    <div class="col-md-5 offset-md-3">
         {% include figure.html path="assets/img/cnnarch.JPG" title="CNN architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
