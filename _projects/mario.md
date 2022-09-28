@@ -2,12 +2,16 @@
 layout: page
 title: "DDQN: Super Mario Bros"
 description: "Super Mario Bros 1-1 World - Agent Reinforcement Learning with DDQN algorithm"
-img: assets/img/7.jpg
+img: assets/img/marlog.jpg
 importance: 3
 category: Reinforcement Learning
 ---
-
-
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/marlog.JPG" title="SMB" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<br/>
 ### **Requirements**
 This project is written in Python and requires the following libraries to be **installed** and **imported**. 
 <script src="https://gist.github.com/mphamsy/4d92a28f58e7ad4efa2842fc757aa96c.js"></script>
@@ -15,6 +19,15 @@ This project is written in Python and requires the following libraries to be **i
 ### **Problem Definition**
 
 In each stage of SMB, the player controls Mario's actions in order to avoid enemies and obstacles and eventually reach the flag pole that marks the end of a stage.  To allow systematic analysis on the interaction between Mario and the OpenAI Gym SMB environment, the game has been defined as a **Markov Decision Process (MDP)**, as illustrated shown in the figure below. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/marprob.JPG" title="SMB problem definition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    SMB problem definition
+</div>
 
 At each time-step, Mario chooses an action and observes the reward of the action as well as the resulted new state.
 
@@ -27,6 +40,15 @@ In SMB there are **12 possible actions**. Due to limited training time, the **â€
 ### **Frames Preprocessing**
 
 Raw frames of the game are of size 240 x 256 x 3, which are computationally expensive to process. Therefore, all observations are converted into grayscale images with a resolution of 100 x 100. The frames are stacked in piles of 4 before being passed into the DDQN model, so that different motions can be represented. As SMB has a framerate of 60 fps, consecutive frames are likely to give similar information about the state, hence, only one in every 4 frames are used to avoid overlapping frames in the model.The preprocessing steps are illustrated in figure below.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/marpre.JPG" title="SMB frames preprocessing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    SMB frames preprocessing
+</div>
 
 <script src="https://gist.github.com/mphamsy/76f7d90574949c6dc461561a75cfd5e1.js"></script>
 
@@ -61,6 +83,24 @@ Mario was trained for 1000 episodes with hyperparameters used as show in the sec
 
 The graph displays the agent reward performance over time. The agent continually learns throughout more episodes.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/marlc.JPG" title="Mario learning curve" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Mario learning curve
+</div>
+
 ### **Post-training**
 
 ### **Takeaways and Conclusions**
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/marlim.JPG" title="Mario limitations" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Mario limitations
+</div>
