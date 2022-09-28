@@ -57,12 +57,26 @@ The train and test images were stores inside respective train and test dataframe
         {% include figure.html path="assets/img/genhist.JPG" title="Gender histogram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Age Frequency Histogram                        Gender Frequency Histogram
+</div>
+<br/>
 ### **Data Augmentation**
+
+**Data Augmentation** is commonly used for Computer Vision projects to synthetically increase the size of dataset by manipulating existing images. This is achieved through rotating, zooming, shearing, flipping and shifting the original picture.
+
+The advantages of data augmentation include increasing the dataset and therefore allowing for **more training** as well as **preventing overfitting**. Data Augmentation is achieved by using  the **ImageDataGenerator** which considers rotation, shift, shear, zoom and flip hyperparameters.
 
 <script src="https://gist.github.com/mphamsy/012e06c4f986a7154e491b3ab81ee25b.js"></script>
 
+```
+Train: Found 3500 validated image filenames.
+Test: Found 1500 validated image filenames.
+```
+
 #### **Data Augmentation Results**
+
+12 images displaying the data augmentation results are presented below. 
 
 <script src="https://gist.github.com/mphamsy/2392c2cc81c6279ff490aa6085b0a5a1.js"></script>
 
