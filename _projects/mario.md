@@ -94,6 +94,7 @@ The graph displays the agent reward performance over time. The agent continually
 
 ### **Post-training**
 
+
 ### **Takeaways and Conclusions**
 
 An issue seen throughout the training process was Mario’s tendency to get stuck behind obstacles, repeatedly running into them and failing to jump in order to clear them in the level’s time limit. By the end of training, Mario was able to deal with pipes, successfully identifying and jumping over them, but obstacles such as the stairs leading to the flag at the end of the level in 1-1 continued to be an issue. 
