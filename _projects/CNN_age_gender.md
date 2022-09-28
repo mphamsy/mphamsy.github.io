@@ -77,7 +77,20 @@ The train and test images were stores inside respective train and test dataframe
 <br/>
 ### **Convolutional Neural Network (CNN)**
 
-Architecture:
+The input layer consisted of images each with size 128x128x3.
+
+The first part of our model consisted of two blocks of Convolution-Relu-BatchNormalisation-MaxPooling layers of size 128x128x8 and 64x64x16, respectively. With the aim of these blocks being to extract low-level features such as edges between background and faces in the image.
+
+**Gender branch:**
+- The binary classification is a much easier task and should be linearly separable in a non-linear feature dimension space introduced by the Relu activation function.
+- The gender branch contains two Convolution-Relu-BatchNormalisation-MaxPooling layers that produce feature maps of dimensions 32x32x32 and 16x16x64, respectively. The size is reduced further to 8x8x64 before flattening.
+- We then added two hidden dense Relu layers of size 256 and 64 connected to a single neuron activated by sigmoid function. 25% dropout is used between these layers.
+
+**Age branch:**
+- We found the regression task to be more challenging, hence, we decided to introduce higher order of non-linearity by adding more convolutional blocks to the age branch.
+- The age branch consisted of 6 consecutive convolutional blocks. The feature maps outputted were of dimension 8x8x64 and were fed into two dense Relu layers with 25% dropout connected to a single neuron activated by a linear function.
+
+**Architecture:**
 
 <script src="https://gist.github.com/mphamsy/039c58a9c807297cf9f8a9175b08f61b.js"></script>
 
@@ -91,7 +104,17 @@ Architecture:
 </div>
 <br/>
 
+### **Training**
+
+Once the architecture model was completed, the model was subsequently trained. The model was trained for 45 epochs with binary cross entropy loss for the gender classification and mean absolute error loss for the age estimatetion.
+
+<script src="https://gist.github.com/mphamsy/e39d1fe4e4e46621dc5903b2a475de52.js"></script>
+
 ### **Plots and Results**
+
+The model has achieved **88.08% accuracy and 7.12 MAE** for age gender estimation. The results are satisfactory considering a small training dataset size and short duration of the training.
+
+The training curves were plotted, which show that **no-over or underfitting occurs** due to drop-outs and the data augmentation.
 
 <script src="https://gist.github.com/mphamsy/8105c3aa601c58ded307b15e5268a387.js"></script>
 
