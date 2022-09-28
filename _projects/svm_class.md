@@ -4,7 +4,7 @@ title: "SVM: Sentiment Classification"
 description: 
 img: assets/img/movierev.JPG
 importance: 1
-category: Data Science & Machine Learning
+category: Data Science & ML
 ---
 
 <div class="row">
