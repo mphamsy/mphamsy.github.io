@@ -22,11 +22,28 @@ As of now, **state-of-the-art (SOTA) systems are answer-aware** NQG as these vas
 ### **Requirements**
 This project is written in Python and requires the following libraries to be **installed** and **imported**. 
 
+<script src="https://gist.github.com/mphamsy/c1b0a6abaa68ac2ccfe1ac13b10c7d22.js"></script>
+
 ### **Dataset**
 
 The source of question-generation data is the one provided by **Stanford Question Answering Dataset (SQuAD)** version 1. **SQuAD_v1** is a large-scale reading comprehension dataset consisting of approximately 98 thousand text paragraphs from Wikipedia, each supplemented with a complementary ground truth question and corresponding answer. Additionally, the dataset highlights individually answer locations within each paragraph. Figure below represents a random sample from the dataset.
 
+<script src="https://gist.github.com/mphamsy/7bb405b5b921933b76c5043e8d541a3a.js"></script>
+
+```
+Length of the training dataset:  87599
+Length of the validation dataset:  10570
+```
+
+The dataset overall contains parapgraph id, context, question, answer and answer starts. The DataFrame table was parsed, and paragraph ids was removed. The visualisation of the data is provided below.
+
+<script src="https://gist.github.com/mphamsy/5cb70ca046058d4a7300ed0779ab01e1.js"></script>
+
+### **Preprocessing**
+
 ### **Feature Conversion**
+
+The dataset was sliced and only 26000 training and 5000 test samples were used during the training of the transformer.
 
 ### **Transformers**
 
