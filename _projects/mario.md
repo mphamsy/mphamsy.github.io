@@ -20,17 +20,32 @@ At each time-step, Mario chooses an action and observes the reward of the action
 
 ### **Action and States**
 
-States in SMB are represented as frame pixels of game scenes. Combinations of the locations of the stage map, Mario and monsters movements, and score bar changes would create new state representations. Resulting in an enormous state space that is prohibitive to compute using tabular methods. 
+States in SMB are represented as frame pixels. Combinations of the locations of the stage map, Mario and monsters movements, and score bar changes would create new state representations. Resulting in an enormous state space that is prohibitive to compute using tabular methods. 
 
 In SMB there are **12 possible actions**. Due to limited training time, the **‘RIGHT_ONLY’** set of actions has been chosen, where mario can only move and jump toward right. If more actions are given to Mario, it requires a larger amount of time to train. Mario has to use these actions to pass through the obstacles and reach the destination point.
 
 ### **Frames Preprocessing**
 
+Raw frames of the game are of size 240 x 256 x 3, which are computationally expensive to process. Therefore, all observations are converted into grayscale images with a resolution of 100 x 100. The frames are stacked in piles of 4 before being passed into the DDQN model, so that different motions can be represented. As SMB has a framerate of 60 fps, consecutive frames are likely to give similar information about the state, hence, only one in every 4 frames are used to avoid overlapping frames in the model.The preprocessing steps are illustrated in figure below.
+
 <script src="https://gist.github.com/mphamsy/76f7d90574949c6dc461561a75cfd5e1.js"></script>
 
 ### **CNN - Architecture**
-In this project, we make use of the feature extraction capability of Convolutional Neural Network (CNN) to achieve such purpose
+In this project, we make use of the feature extraction capability of Convolutional Neural Network (CNN) to achieve such purpose.
+
+<script src="https://gist.github.com/mphamsy/06d5b5545a6153451266f3d59481b8ae.js"></script>
+
 ### **Mario - DDQN**
+
+The main challenge in training a regular Deep Q-Network (DQN) is that there is no supervision. In the simple DQN implementation, both the target and current state-action Q-values are estimated using the same model. This leads to the correlation causing the shift, which inhibits the TD error from decreasing; which ultimately makes convergence of the model difficult.
+
+One of the solutions is to use fixed targets, which are temporarily "frozen" in place - allowing for
+boosted convergence. A commonly used method introduces a second network (target net), which
+copies the weights of the DQN network (online net) after a number of steps in the environment. In
+our implementation, the variable controlling that is the update_steps.
+
+Additionally, decoupling target Q-values from the online network helps preventing the overestimation
+of Q-values, which further improves training
 
 <script src="https://gist.github.com/mphamsy/ef16b972d1ab67883927432c39d02dff.js"></script>
 
