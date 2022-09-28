@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SVM: Sentiment Classification"
-description: "The sentiment review analysis utiliziting a support vector machine"
+description: 
 img: assets/img/movierev.JPG
 importance: 1
 category: Data Science & Machine Learning
