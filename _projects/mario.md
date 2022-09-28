@@ -75,7 +75,7 @@ These are the hyper parameters used for the training of the Mario agent.
 
 ### **Training**
 
-Mario was trained for 1000 episodes with hyperparameters used as show in the section Hyperparameters.
+Mario was trained for 2500 episodes with hyperparameters used as show in the section Hyperparameters.
 
 <script src="https://gist.github.com/mphamsy/a5e821d0df38383744008110080e6e87.js"></script>
 
@@ -95,6 +95,10 @@ The graph displays the agent reward performance over time. The agent continually
 ### **Post-training**
 
 ### **Takeaways and Conclusions**
+
+An issue seen throughout the training process was Mario’s tendency to get stuck behind obstacles, repeatedly running into them and failing to jump in order to clear them in the level’s time limit. By the end of training, Mario was able to deal with pipes, successfully identifying and jumping over them, but obstacles such as the stairs leading to the flag at the end of the level in 1-1 continued to be an issue. 
+
+Mario also struggled with the first Piranha Plant enemy of the game - an enemy who emerges from pipes, preventing the player from jumping over (see figure below). By episode 2000, the agent was beating stage 1-1 in training, but very few runs saw Mario getting past this enemy. This is likely caused by the agent’s previous experience of pipes which can be safely jumped over - the Piranha Plant represents the an instance in the game where this is not the case.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
