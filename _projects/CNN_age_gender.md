@@ -4,7 +4,7 @@ title: "CNN: Age-gender Image Classification"
 description: "The classification of images with CNN"
 img: assets/img/cnnprof.JPG
 importance: 2
-category: Data Science & Machine Learning
+category: Deep Learning
 ---
 
 <div class="row justify-content-sm-center">
