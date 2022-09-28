@@ -80,8 +80,8 @@ The best parameters for sigmoid are: {'C': 0.4, 'gamma': 1.0, 'kernel': 'sigmoid
 
 Based on the GridSearchCV finding the best hyperparameters of C and gamma are C: 0.4 and gamma: 1.0 for sigmoid kernel. The results of each hyperparameter pair of C and gamma based on the mean test score are displayed in the heatmap below.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/SVMheatmap.JPG" title="Heatmap" class="middle" %}
     </div>
 </div>
@@ -99,8 +99,8 @@ The accuracy score is : 87.06%
 ```
 The **accuracy score of 87.06%** was achieved for the best sigmoid kernel with its learning curves being displayed below.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/LearningcurvesSVM.JPG" title="Learning Curves" class="middle" %}
     </div>
 </div>
@@ -115,8 +115,8 @@ The results are highly satisfactory proving that SVM sigmoid kernel is capable o
 
 <script src="https://gist.github.com/mphamsy/13187488c21b0f5e8ba15c51066fc44a.js"></script>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0-center">
+<div class="row">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/CMSVM.JPG" title="Confusion Matrix" align = "middle" class="center" %}
     </div>
 </div>
