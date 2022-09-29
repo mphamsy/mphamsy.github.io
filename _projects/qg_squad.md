@@ -95,6 +95,8 @@ The T5 was trained on the Colossal Clean Crawled Corpus (C4), a dataset consisti
 
 ### **Feature Conversion**
 
+The data was subsequently converted to features, collated and fed to the transformer T5.    
+    
 <script src="https://gist.github.com/mphamsy/3430b3e551fd75e1fac1304bf2c1c58f.js"></script>
 
 <script src="https://gist.github.com/mphamsy/dab0427464b17f196f9b2312cf227b96.js"></script>
