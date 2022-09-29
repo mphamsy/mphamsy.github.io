@@ -41,13 +41,19 @@ The dataset overall contains parapgraph id, context, question, answer and answer
 
 ### **Preprocessing**
 
+### **Transformers**
+
 ### **Feature Conversion**
 
 The dataset was sliced and only 26000 training and 5000 test samples were used during the training of the transformer.
 
-### **Transformers**
+<script src="https://gist.github.com/mphamsy/3430b3e551fd75e1fac1304bf2c1c58f.js"></script>
+
+<script src="https://gist.github.com/mphamsy/dab0427464b17f196f9b2312cf227b96.js"></script>
 
 ### **Training**
+
+<script src="https://gist.github.com/mphamsy/2434244d1229f2a0e07ade46e5aa8eff.js"></script>
 
 ### **Testing**
 
