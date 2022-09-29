@@ -110,4 +110,14 @@ Following the feature conversion, the model can be trained. The dataset was slic
 The model was subsequently trained and pushed to the hub. The pre-trained t5 was then tested on context paragraphs and answer pairs to generate the questions.
   
 <script src="https://gist.github.com/mphamsy/fc5514c1a6f095f02460a3158220158c.js"></script>
+    
+```
+Answer + Context: four <sep> On January 7, 2012, Beyonce gave birth to her first child, a daughter, Blue Ivy Carter, at Lenox Hill Hospital in New York. Five months later, she performed for four nights at Revel Atlantic City's Ovation Hall to celebrate the resort's opening, her first performances since giving birth to Blue Ivy.
+Actual: How many nights did Beyonce play at the resort?
+Predicted: How many nights did Beyonce perform at the Ovation Hall?
+
+Answer + Context: Bach and Mozart <sep> Chopin was educated in the tradition of Beethoven, Haydn, Mozart and Clementi; he used Clementi's piano method with his own students. He was also influenced by Hummel's development of virtuoso, yet Mozartian, piano technique. He cited Bach and Mozart as the two most important composers in shaping his musical outlook. Chopin's early works are in the style of the "brilliant" keyboard pieces of his era as exemplified by the works of Ignaz Moscheles, Friedrich Kalkbrenner, and others. Less direct in the earlier period are the influences of Polish folk music and of Italian opera. Much of what became his typical style of ornamentation (for example, his fioriture) is taken from singing. His melodic lines were increasingly reminiscent of the modes and features of the music of his native country, such as drones.
+Actual: Who did Chopin say were the two most important composers in his own music influences?
+Predicted: Which two composers did Chopin consider the most important in his musical outlook?
+```
 
