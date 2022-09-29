@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Question Generation from SQuAD dataset (ongoing)
+title: T5 Question Generation from SQuAD 
 description: 
 img: assets/img/qglog.jpg
 importance: 3
