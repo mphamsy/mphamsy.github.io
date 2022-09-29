@@ -42,8 +42,6 @@ Length of the validation dataset:  10570
 
 The dataset overall contains parapgraph id, context, question, answer and answer starts. The DataFrame table was parsed, and paragraph ids was removed. The visualisation of the data is provided below.
 
-<script src="https://gist.github.com/mphamsy/5cb70ca046058d4a7300ed0779ab01e1.js"></script>
-
 <div class="row">
     <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/qgdata.JPG" title="Squad dataset" class="img-fluid rounded z-depth-1" %}
