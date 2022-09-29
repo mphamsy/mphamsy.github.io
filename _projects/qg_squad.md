@@ -118,8 +118,12 @@ Answer + Context: four <sep> On January 7, 2012, Beyonce gave birth to her first
 Actual: How many nights did Beyonce play at the resort?
 Predicted: How many nights did Beyonce perform at the Ovation Hall?
 
-Answer + Context: Bach and Mozart <sep> Chopin was educated in the tradition of Beethoven, Haydn, Mozart and Clementi; he used Clementi's piano method with his own students. He was also influenced by Hummel's development of virtuoso, yet Mozartian, piano technique. He cited Bach and Mozart as the two most important composers in shaping his musical outlook. Chopin's early works are in the style of the "brilliant" keyboard pieces of his era as exemplified by the works of Ignaz Moscheles, Friedrich Kalkbrenner, and others. Less direct in the earlier period are the influences of Polish folk music and of Italian opera. Much of what became his typical style of ornamentation (for example, his fioriture) is taken from singing. His melodic lines were increasingly reminiscent of the modes and features of the music of his native country, such as drones.
+Answer + Context: Bach and Mozart <sep> Chopin was educated in the tradition of Beethoven, Haydn, Mozart and Clementi; he used Clementi's piano method with his own students. He was also influenced by Hummel's development of virtuoso, yet Mozartian, piano technique. He cited Bach and Mozart as the two most important composers in shaping his musical outlook. Chopin's early works are in the style of the "brilliant" keyboard pieces of his era as exemplified by the works of Ignaz Moscheles, Friedrich Kalkbrenner, and others. Less direct in the earlier period are the influences of Polish folk music and of Italian opera.
 Actual: Who did Chopin say were the two most important composers in his own music influences?
 Predicted: Which two composers did Chopin consider the most important in his musical outlook?
+    
+Answer + Context: Zhu Yuanzhang <sep> In 1368, a Han Chinese revolt known as the Red Turban Rebellion toppled the Mongol Yuan dynasty in China. Zhu Yuanzhang then established the Ming dynasty, ruling as the Hongwu Emperor (r. 1368-1398). It is not clear how much the early Ming court understood the civil war going on in Tibet between rival religious sects, but the first emperor was anxious to avoid the same trouble that Tibet had caused for the Tang dynasty. 
+Actual: Who created the Ming Dynasty? 
+Predicted: Who established the Ming dynasty?
 ```
 
