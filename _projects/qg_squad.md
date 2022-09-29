@@ -8,7 +8,7 @@ category: Deep Learning
 ---
 
 <div class="row">
-    <div class="col-md-5 offset-md-3">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/qgmain.JPG" title="Question Generation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -45,7 +45,7 @@ The dataset overall contains parapgraph id, context, question, answer and answer
 <script src="https://gist.github.com/mphamsy/5cb70ca046058d4a7300ed0779ab01e1.js"></script>
 
 <div class="row">
-    <div class="col-md-5 offset-md-3">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/qgdata.JPG" title="Squad dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -65,7 +65,7 @@ The pre-processing strategy input consists of an answer followed by a context. T
   Prepending Encoder Input = Answer + <SEP> + Context
   ```
 <div class="row">
-    <div class="col-md-5 offset-md-3">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/qgpre.JPG" title="Prepending Formatting" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -82,7 +82,7 @@ The Text-to-Text Transfer Transformer (T5) is a completely text to text transfor
 The T5 was trained on the Colossal Clean Crawled Corpus (C4), a dataset consisting of 750GB of cleaned and parsed English text taken from the web. Due to a sheer number of parameters taken into consideration while training, the T5 model has 5 size types, each with varying architecture to accommodate for parameter processing. T5-base type will be used to generate questions.
   
 <div class="row">
-    <div class="col-md-5 offset-md-3">
+    <div class="col-md-6 offset-md-3">
         {% include figure.html path="assets/img/qgarch.JPG" title="T5 Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
