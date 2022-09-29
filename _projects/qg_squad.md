@@ -51,8 +51,6 @@ The dataset overall contains parapgraph id, context, question, answer and answer
     Example of the content inside the SQuAD Dataset 
 </div>
 <br/>
-
-
 ### **Preprocessing**
 
 All QG pre-processing strategies are answer-aware systems, where both answer and context are used together as a text string input to train the model. The formats of train and test datasets were revised according to each of the pre-processing strategies and were later used in the post-processing for corresponding methods to generate questions.
@@ -87,7 +85,6 @@ The T5 was trained on the Colossal Clean Crawled Corpus (C4), a dataset consisti
 <div class="caption">
     T5 Architecture
 </div>
-<br/>
 
 <script src="https://gist.github.com/mphamsy/21a38d49c08c6821c63ed1ff2fee10d3.js"></script>
 
