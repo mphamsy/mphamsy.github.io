@@ -66,7 +66,7 @@ The pre-processing strategy input consists of an answer followed by a context. T
   ```
 <div class="row">
     <div class="col-md-6 offset-md-3">
-        {% include figure.html path="assets/img/qgpre.JPG" title="Prepending Formatting" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/qgprep.JPG" title="Prepending Formatting" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
