@@ -10,7 +10,7 @@
     - name: Phone Number
       value: +44 07846947939
     - name: Status
-      value: Right to work in the UK indefinetely with sponsorship
+      value: Permanently Settled
    
 - title: Core Skills and Competencies
   type: map
@@ -31,8 +31,11 @@
       institution: University of Bath, Bath, England
       year: 2021 - Present
       description:
-        - Established strong programming, statistical and analytical skills 
-        - Developed technical expertise in Python, SQL and ML
+        - Established strong programming, statistical and analytical skills to work comfortably in Data Science and Machine Learning related fields. 
+        - Developed a robust understanding of Machine, Deep, Reinforcement and Bayesian Learning
+        - Deployed various Machine Learning frameworks to NLP and Computer Vision tasks
+        - Learnt how to solve real-life challenges and data problems with the aforementioned algorithms
+        - Established excellent proficiency in handling, analysing, visualizing, and presenting complicated datasets
     - title: BEng Civil Engineering
       institution: University of Surrey, Guildford, England
       year: 2015-2018
