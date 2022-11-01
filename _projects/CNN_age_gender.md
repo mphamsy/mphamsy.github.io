@@ -97,18 +97,11 @@ Test: Found 1500 validated image filenames.
 <br/>
 ### **Convolutional Neural Network (CNN)**
 
+**Architecture Summary:**
 The input layer consisted of images each with size 128x128x3.
 
-The first part of our model consisted of two blocks of Convolution-Relu-BatchNormalisation-MaxPooling layers of size 128x128x8 and 64x64x16, respectively. With the aim of these blocks being to extract low-level features such as edges between background and faces in the image.
+The first part of our model consisted of two blocks of Convolution-Relu-BatchNormalisation-MaxPooling layers of size 128x128x8 and 32x32x8, respectively. With the aim of these blocks being to extract low-level features such as edges between background and faces in the image.  The drop-out of 0.15 is applied at the end, before age and gender split. Following the split, Convolution-Relu and MaxPooling along with drop-out layers of 0.3 are applied for each branch to finally generate an output ina dense layer.
 
-**Gender branch:**
-- The binary classification is a much easier task and should be linearly separable in a non-linear feature dimension space introduced by the Relu activation function.
-- The gender branch contains two Convolution-Relu-BatchNormalisation-MaxPooling layers that produce feature maps of dimensions 32x32x32 and 16x16x64, respectively. The size is reduced further to 8x8x64 before flattening.
-- Twohidden dense Relu layers of size 256 and 64 connected to a single neuron activated by sigmoid function. 25% dropout is used between these layers.
-
-**Age branch:**
-- The regression task for age estimation has proven to be more challenging, hence, to introduce higher order of non-linearity; more convolutional blocks to the age branch were added.
-- The age branch consisted of 6 consecutive convolutional blocks. The feature maps outputted were of dimension 8x8x64 and were fed into two dense Relu layers with 25% dropout connected to a single neuron activated by a linear function.
 
 **Architecture:**
 
