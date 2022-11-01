@@ -116,7 +116,7 @@ The first part of our model consisted of two blocks of Convolution-Relu-BatchNor
 
 <div class="row">
     <div class="col-md-5 offset-md-3">
-        {% include figure.html path="assets/img/cnnarch.JPG" title="CNN architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/CNNmodel.JPG" title="CNN architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
